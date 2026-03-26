@@ -9,61 +9,57 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #0f172a;
+  background: #020617;
   color: #e2e8f0;
 }
 
 header {
-  background: linear-gradient(90deg, #0ea5e9, #22c55e);
-  padding: 50px;
+  padding: 60px;
   text-align: center;
+  background: linear-gradient(120deg, #0ea5e9, #22c55e);
   color: white;
 }
 
 header h1 {
+  font-size: 3rem;
   margin: 0;
-  font-size: 2.5rem;
 }
 
 .container {
-  padding: 20px;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: auto;
+  padding: 20px;
 }
 
 .section {
-  margin-bottom: 30px;
+  margin: 40px 0;
 }
 
 .section h2 {
-  color: #38bdf8;
-  border-bottom: 2px solid #334155;
-  padding-bottom: 5px;
+  font-size: 1.8rem;
+  border-left: 5px solid #22c55e;
+  padding-left: 10px;
 }
 
 .card {
-  background: #1e293b;
-  padding: 15px;
-  margin-top: 10px;
-  border-radius: 10px;
+  background: #0f172a;
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
   transition: 0.3s;
 }
 
 .card:hover {
-  transform: scale(1.02);
-  background: #334155;
+  transform: translateY(-5px);
 }
 
 ul {
-  margin: 0;
   padding-left: 20px;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #020617;
-  margin-top: 40px;
+li {
+  margin: 5px 0;
 }
 </style>
 </head>
@@ -72,7 +68,7 @@ footer {
 
 <header>
   <h1>🔐 Cybersecurity Roadmap 2026</h1>
-  <p>Beginner → Advanced | GRC | SOC | VAPT | Ethical Hacking</p>
+  <p>Beginner → Advanced | Full Domain Coverage</p>
 </header>
 
 <div class="container">
@@ -81,21 +77,20 @@ footer {
     <h2>🟢 Fundamentals</h2>
     <div class="card">
       <ul>
-        <li>Operating Systems (Windows, Linux)</li>
+        <li>OS (Windows, Linux)</li>
         <li>Networking (OSI, TCP/IP, DNS)</li>
-        <li>Security Basics (CIA Triad, Encryption)</li>
+        <li>Security Basics (CIA, Encryption)</li>
       </ul>
     </div>
   </div>
 
   <div class="section">
-    <h2>🟡 Core Domains</h2>
+    <h2>🟡 Network Security</h2>
     <div class="card">
       <ul>
-        <li>Network Security (Firewalls, IDS/IPS)</li>
-        <li>System Security (Hardening, Patch Mgmt)</li>
-        <li>Web Security (OWASP Top 10)</li>
-        <li>Cloud Security (IAM, Misconfigurations)</li>
+        <li>Firewalls, IDS/IPS</li>
+        <li>VPN, NAC</li>
+        <li>MITM, ARP Spoofing</li>
       </ul>
     </div>
   </div>
@@ -104,9 +99,9 @@ footer {
     <h2>🔴 Offensive Security</h2>
     <div class="card">
       <ul>
-        <li>Ethical Hacking (Recon → Exploitation)</li>
-        <li>VAPT (Scanning, Exploitation)</li>
-        <li>Attacks: SQLi, XSS, CSRF</li>
+        <li>Recon → Exploitation</li>
+        <li>SQLi, XSS, CSRF</li>
+        <li>Tools: Nmap, Burp Suite</li>
       </ul>
     </div>
   </div>
@@ -115,9 +110,9 @@ footer {
     <h2>🔵 Defensive Security</h2>
     <div class="card">
       <ul>
-        <li>SOC (Monitoring, SIEM)</li>
+        <li>SOC, SIEM</li>
         <li>Incident Response</li>
-        <li>Threat Hunting (MITRE ATT&CK)</li>
+        <li>Threat Hunting</li>
       </ul>
     </div>
   </div>
@@ -126,29 +121,25 @@ footer {
     <h2>🟣 GRC</h2>
     <div class="card">
       <ul>
-        <li>Governance & Policies</li>
+        <li>Policies & Frameworks</li>
         <li>Risk Management</li>
-        <li>Compliance (ISO, GDPR)</li>
+        <li>Compliance</li>
       </ul>
     </div>
   </div>
 
   <div class="section">
-    <h2>⚡ Advanced Topics</h2>
+    <h2>⚡ Advanced</h2>
     <div class="card">
       <ul>
-        <li>Cloud Security (Advanced)</li>
+        <li>Cloud Security</li>
         <li>DevSecOps</li>
-        <li>AI in Cybersecurity</li>
+        <li>AI Security</li>
       </ul>
     </div>
   </div>
 
 </div>
-
-<footer>
-  <p>🚀 Built by Sameer | Cybersecurity Roadmap</p>
-</footer>
 
 </body>
 </html>
