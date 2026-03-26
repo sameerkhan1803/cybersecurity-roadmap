@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cybersecurity Roadmap</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  background: linear-gradient(90deg, #0ea5e9, #22c55e);
+  padding: 40px;
+  text-align: center;
+}
+
+.section {
+  padding: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🔐 Cybersecurity Roadmap</h1>
+  <p>Beginner → Advanced</p>
+</header>
+
+<div class="section">
+  <div class="card">
+    <h2>🟢 Fundamentals</h2>
+    <p>Networking, OS, Security Basics</p>
+  </div>
+
+  <div class="card">
+    <h2>🟡 Core Domains</h2>
+    <p>Network Security, Web Security, Cloud</p>
+  </div>
+
+  <div class="card">
+    <h2>🔴 Offensive Security</h2>
+    <p>Ethical Hacking, VAPT</p>
+  </div>
+
+  <div class="card">
+    <h2>🔵 Defensive Security</h2>
+    <p>SOC, Incident Response</p>
+  </div>
+
+  <div class="card">
+    <h2>🟣 GRC</h2>
+    <p>Risk, Compliance, Governance</p>
+  </div>
+
+  <div class="card">
+    <h2>⚡ Advanced</h2>
+    <p>Cloud, DevSecOps, AI Security</p>
+  </div>
+</div>
+
+</body>
+</html>
